@@ -3,20 +3,20 @@ import java.util.stream.*;
 
 
 /**
- * ÇöÀç makefileÀÇ ³»¿ëÀ» °ü¸®ÇÏ´Â Å¬·¡½ºÀÔ´Ï´Ù.
- * º¯°æÀü, ÀúÀåÀüÀÇ ³»¿ëÀ» ±¸ºÐÇØ¼­ °¡Áö°í ÀÖÀ¸¸ç,
- * ÀÌ¸¦ ÀÌ¿ëÇØ ÀÛ¼ºÀü, ÀÛ¼º ÈÄ makefileÀÇ ºñ±³µµ °¡´ÉÇÕ´Ï´Ù.
- * ÆÄÀÏ ÀÚÃ¼ÀÇ ÀÔ·ÂÀÌ³ª ÀúÀåÀº file_manager Å¬·¡½º°¡ °ü¸®ÇÕ´Ï´Ù.
+ * í˜„ìž¬ makefileì˜ ë‚´ìš©ì„ ê´€ë¦¬í•˜ëŠ” í´ëž˜ìŠ¤ìž…ë‹ˆë‹¤.
+ * ë³€ê²½ì „, ì €ìž¥ì „ì˜ ë‚´ìš©ì„ êµ¬ë¶„í•´ì„œ ê°€ì§€ê³  ìžˆìœ¼ë©°,
+ * ì´ë¥¼ ì´ìš©í•´ ìž‘ì„±ì „, ìž‘ì„± í›„ makefileì˜ ë¹„êµë„ ê°€ëŠ¥í•©ë‹ˆë‹¤.
+ * íŒŒì¼ ìžì²´ì˜ ìž…ë ¥ì´ë‚˜ ì €ìž¥ì€ file_manager í´ëž˜ìŠ¤ê°€ ê´€ë¦¬í•©ë‹ˆë‹¤.
  */
 public class StringDescriptor {
 	protected String original_text;
 	protected String modified_text;
 	
 	/*
-	 * ÀÌÁ¦ ¿©±â¿¡ ÆÄ½ÌÀ» ÅëÇØ È®ÀÎÇÑ ÀÇÁ¸°ü°è°¡ Á¤¸®µÇ¾î¾ßÇÕ´Ï´Ù.
-	 * Æ®¸®·Î Ç¥ÇöÇÏ´Â°Ô ÃÖ°í°ÚÁö¸¸ ±×°Å ¸¸µé±â ±ÍÂú´Ù ¶óÀÌºê·¯¸® ¾îµð¼­ ±¸ÇÏÁö?
-	 * µû¶ó¼­ ÀÌ ºÎºÐÀº °£·«È­µË´Ï´Ù. ´Ü¼øÈ÷ ¼ø¼­¸¦ ÅëÇØ¼­ Á¤¸®ÇÏ°Å³ª
-	 * °¢ ÅäÅ«À» µ¥ÀÌÅÍ Å¬·¡½º·Î ÇØ¼­ ÀúÀåÇØ¾ßÇÏ´Âµ¥ ¾Æ ±ÍÂú´Ù.
+	 * ì´ì œ ì—¬ê¸°ì— íŒŒì‹±ì„ í†µí•´ í™•ì¸í•œ ì˜ì¡´ê´€ê³„ê°€ ì •ë¦¬ë˜ì–´ì•¼í•©ë‹ˆë‹¤.
+	 * íŠ¸ë¦¬ë¡œ í‘œí˜„í•˜ëŠ”ê²Œ ìµœê³ ê² ì§€ë§Œ ê·¸ê±° ë§Œë“¤ê¸° ê·€ì°®ë‹¤ ë¼ì´ë¸ŒëŸ¬ë¦¬ ì–´ë””ì„œ êµ¬í•˜ì§€?
+	 * ë”°ë¼ì„œ ì´ ë¶€ë¶„ì€ ê°„ëžµí™”ë©ë‹ˆë‹¤. ë‹¨ìˆœížˆ ìˆœì„œë¥¼ í†µí•´ì„œ ì •ë¦¬í•˜ê±°ë‚˜
+	 * ê° í† í°ì„ ë°ì´í„° í´ëž˜ìŠ¤ë¡œ í•´ì„œ ì €ìž¥í•´ì•¼í•˜ëŠ”ë° ì•„ ê·€ì°®ë‹¤.
 	 */
 	
 }
