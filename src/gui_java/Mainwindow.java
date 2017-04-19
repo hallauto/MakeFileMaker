@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import java.awt.BorderLayout;
 
-public class Main_window {
+public class Mainwindow {
 
 	private JFrame frame;
 
@@ -14,10 +14,13 @@ public class Main_window {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		
+		
+		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Main_window window = new Main_window();
+					Mainwindow window = new Mainwindow();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -29,7 +32,7 @@ public class Main_window {
 	/**
 	 * Create the application.
 	 */
-	public Main_window() {
+	public Mainwindow() {
 		initialize();
 	}
 

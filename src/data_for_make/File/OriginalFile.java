@@ -1,4 +1,4 @@
-package data_for_make;
+package data_for_make.File;
 
 public class OriginalFile extends FileManager {
 

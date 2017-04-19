@@ -1,5 +1,4 @@
 package data_for_make;
-import java.util.stream.*;
 
 
 /**
@@ -9,8 +8,8 @@ import java.util.stream.*;
  * 파일 자체의 입력이나 저장은 file_manager 클래스가 관리합니다.
  */
 public class StringDescriptor {
-	protected String original_text;
-	protected String modified_text;
+	private String original_text;
+	private String modified_text;
 	
 	/*
 	 * 이제 여기에 파싱을 통해 확인한 의존관계가 정리되어야합니다.
@@ -18,5 +17,17 @@ public class StringDescriptor {
 	 * 따라서 이 부분은 간략화됩니다. 단순히 순서를 통해서 정리하거나
 	 * 각 토큰을 데이터 클래스로 해서 저장해야하는데 아 귀찮다.
 	 */
+	
+	public StringDescriptor() {
+		// TODO Auto-generated constructor stub
+		
+		original_text = "";
+		modified_text = "";
+	}
+	
+	public void stringPassser()
+	{
+		
+	}
 	
 }

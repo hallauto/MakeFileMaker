@@ -10,10 +10,10 @@ public class Command {
 	public static String tab_one = "\t";
 	public static String tab_three = "   ";
 	
-	protected String output_name = "";
-	protected String target_name = "";
+	private String output_name = "";
+	private String target_name = "";
 	
-	protected String codeMacro = "";
+	private String codeMacro = "";
 	
 
 }
